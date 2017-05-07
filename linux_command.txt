@@ -1,9 +1,13 @@
 #----- DNS info -------------------#
-whois
+$ whois
 
-#--- Network port scan ------------#
-traceroute
-nmap -Pn -sV <IP>
+#-------- Network scan ------------#
+
+# Port scan
+$ nmap -Pn -sV <IP>
+
+# Route info
+$ traceroute
 
 #---- Users -----------------------#
 
@@ -12,10 +16,10 @@ $ awk -F":" '{print "Login:" $1 "\tName:" $5 "\tHome:" $6}' /etc/passwd
 $ passwd -S -a | awk '{print "Login:"$1 "\tLast Password Change:"$3 "\tInactivity(in days):"$7}'
 
 # List login history for specific user
-last <username>
+$ last <username>
 
 # List all login attempts
-cat /var/log/auth.log
+$ cat /var/log/auth.log
 
 
  
