@@ -1,0 +1,51 @@
+---------------------
+Physical Protections: Attacker can use USB/CD drive to boot your machine
+- BIOS password
+- Disk encrption
+- Physical Lock? Room? Cage? lol
+
+---------------------
+Incident Response: 
+
+# Intrusion detection? This is a checklist of suspicious events:
+
+- Mysterious open ports, strange processes.
+
+- System utilities (common commands) behaving strange.
+
+- Login problems.
+
+- Unexplained bandwidth usage.
+
+- Damaged or missing log files, syslog daemon behaving strange.
+
+- Interfaces in unusual modes.
+
+- Unexpectedly modified configuration files.
+
+- Strange entries in shell history files.
+
+- Unidentified temporary files.
+
+# Recovering from intrusion? Take the following actions in this order:
+
+- Disconnect the machine from the network.
+
+- Try to find out as much as you can about how your security was breached.
+
+- Backup important non-system data. If possible, check these data against existing backups, made before the system was compromised, to ensure data integrity.
+
+- Re-install the system.
+
+- Use new passwords.
+
+- Restore from system and data backups.
+
+- Apply all available updates.
+
+- Re-examine the system: block off unnecessary services, check firewall rules and other access policies.
+
+- Reconnect.
+
+
+

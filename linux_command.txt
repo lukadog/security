@@ -21,5 +21,11 @@ $ last <username>
 # List all login attempts
 $ cat /var/log/auth.log
 
+#----- Process -------------------#
 
+# List all process with keyword
+$ ps aux | grep <keyword>
+
+# List real time processes
+$ top
  
